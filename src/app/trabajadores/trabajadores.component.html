@@ -1,9 +1,35 @@
-<button class="btn" (click)="increment()">
-+
-</button>
-
-<p>{{numero}}</p>
-
-<button class="btn" (click)="decrement()">
--
-</button>
+<div id="tutulo" style="display: flex; align-items: center; justify-content: center;">
+    <div>
+        <h1>Agregar Trabajador</h1>
+    </div>
+</div>
+<div style="display: flex; align-items: center; justify-content: center;;">
+    <div style="background: gray; margin-top: 20px; width: 90%; height: 400px;border-radius: 15px">
+        <div style="display: flex; ">
+            <div style="display: flex; margin-top: 10px; width: 70%; align-items: center; justify-content: center;">
+                <label for="">Nombre Trabajador: </label>
+                <input placeholder="Ingresa nombre del trabajador" type="text" class="form-control" style="width: 800px; margin-left: 1%;">
+            </div>
+            <div style="display: flex; margin-top: 10px; width: 30%;">
+                <label for="">Sueldo inicial x dia: </label>
+                <input type="number" class="form-control" style="width: 200px; margin-left: 1%;">
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: center;">
+            <div style="display: flex; margin-top: 1%; align-items: center; justify-content: center;">
+                <label for="">Numero Telefonico: </label>
+                <input type="text" placeholder="Ingresa un numero telefonico" class="form-control" style="width: 500px; margin-left: 1px;">
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: center; margin-top: 20px;">
+            <div style="display: flex; width: 100%;">
+                <div style=" width: 50%; align-items: center; justify-content: center; display: flex;">
+                    <button type="button" class="btn btn-success" style="margin-left: 5px;">Aregar Empleado</button>
+                </div>
+                <div style=" width: 50%; align-items: center; justify-content: center; display: flex;">
+                    <button type="button" class="btn btn-danger">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </div>    
+</div>

@@ -11,12 +11,12 @@ export class TrabajadoresComponent implements OnInit{
   ngOnInit(): void{
 
   }
-
+ 
   numero:number = 1;
 
   increment(){
     this.numero = this.numero + 1;
-  }
+  } 
 
   decrement(){
     this.numero = this.numero - 1;
