@@ -10,6 +10,7 @@ import { ListarinvernaderosComponent } from './listarinvernaderos/listarinvernad
 import { AgregsrActividadComponent } from './agregsr-actividad/agregsr-actividad.component';
 import { ListarActividadesComponent } from './listar-actividades/listar-actividades.component';
 import { AgregarUsuarioComponent } from './agregar-usuario/agregar-usuario.component';
+import { CortesAgregarComponent } from './cortes-agregar/cortes-agregar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { AgregarUsuarioComponent } from './agregar-usuario/agregar-usuario.compo
     ListarinvernaderosComponent,
     AgregsrActividadComponent,
     ListarActividadesComponent,
-    AgregarUsuarioComponent
+    AgregarUsuarioComponent,
+    CortesAgregarComponent
   ],
   imports: [
     BrowserModule
